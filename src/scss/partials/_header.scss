@@ -1,0 +1,43 @@
+header {
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    height: 100%;
+    width: 1150px;
+    padding: 20px 0;
+    display: flex;
+    border-bottom: 1px solid #bdb5af;
+    .logo-container {
+        width: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+    .links {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        a {
+            text-decoration: none;
+            color: $primaryTextColor;
+            padding: 0 20px;
+        }
+        a:hover {
+            color: #30488f;
+        }
+        .btn-signup {
+            background-color: white;
+            border: 1px solid #30488f;
+            color: #30488f;
+        }
+        .btn-signup:hover {
+            background-color: #30488f;
+            color: white;
+        }
+    }
+}

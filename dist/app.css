@@ -6,7 +6,78 @@
 
 /* COMMON */
 
+section {
+  width: 100vw;
+  height: auto;
+}
+
+.btn {
+  background-color: #30488f;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #58402c;
+}
+
 /* HEADER */
+
+header {
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  height: 100%;
+  width: 1150px;
+  padding: 20px 0;
+  display: flex;
+  border-bottom: 1px solid #bdb5af;
+}
+
+.navbar .logo-container {
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .links {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #58402c;
+  padding: 0 20px;
+}
+
+.navbar .links a:hover {
+  color: #30488f;
+}
+
+.navbar .links .btn-signup {
+  background-color: white;
+  border: 1px solid #30488f;
+  color: #30488f;
+}
+
+.navbar .links .btn-signup:hover {
+  background-color: #30488f;
+  color: white;
+}
 
 /* MAIN */
 

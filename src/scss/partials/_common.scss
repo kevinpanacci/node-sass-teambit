@@ -1,0 +1,16 @@
+section {
+    width: 100vw;
+    height: auto;
+}
+
+.btn {
+    background-color: #30488f;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, p {
+    color: $primaryTextColor;
+}
