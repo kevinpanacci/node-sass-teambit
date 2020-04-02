@@ -51,6 +51,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     .container {
         display: flex;
         flex-direction: column;
@@ -79,6 +80,19 @@ main {
                     font-size: 18px;
                 }
             }
+        }
+        .rab-image-cta {
+            margin-top: 65px;
+            img {
+                width: 280px;
+                height: auto;
+            }
+        }
+        hr {
+            margin-top: 100px;
+            width: 100%;
+            border-width: 0;
+            border-top: 1px solid #bdb5af;
         }
     }
 

@@ -157,6 +157,7 @@ main .manifest .container .cta-half-right > img {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .favor-points .container {
@@ -193,6 +194,22 @@ main .manifest .container .cta-half-right > img {
 
 .favor-points .container .card-container .card p {
   font-size: 18px;
+}
+
+.favor-points .container .rab-image-cta {
+  margin-top: 65px;
+}
+
+.favor-points .container .rab-image-cta img {
+  width: 280px;
+  height: auto;
+}
+
+.favor-points .container hr {
+  margin-top: 100px;
+  width: 100%;
+  border-width: 0;
+  border-top: 1px solid #bdb5af;
 }
 
 /* FOOTER */
