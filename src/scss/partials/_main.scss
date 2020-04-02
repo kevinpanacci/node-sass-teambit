@@ -1,0 +1,85 @@
+main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .manifest {
+        display: flex;
+        justify-content: center;
+        .container {
+            display: flex;
+            margin: 100px;
+            .cta-half {
+                @include halfsection;
+                .cta-btn {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                    small {
+                        margin: 0 15px;
+                    }
+                    .btn:hover {
+                        background: #233569;
+                    }
+                }
+                h1 {
+                    margin-bottom: 30px;
+                    font-size: 50px;
+                }
+                p {
+                    font-size: 25px;
+                }
+                a {
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: #30488f;
+                }
+            }
+            .cta-half-right > img {
+                width: 570px;
+                height: 350px;
+            }
+        }
+    }
+}
+
+.favor-points {
+    background-color: $background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            font-size: 26px;
+            margin-bottom: 50px;
+        }
+        .card-container {
+            display: flex;
+            width: 100%;
+            .card {
+                width: 25%;
+                margin-right: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                img {
+                    width: 140px;
+                    height: auto;
+                    margin: 20px auto;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}

@@ -13,17 +13,24 @@ section {
 
 .btn {
   background-color: #30488f;
-  padding: 7px 20px;
-  border: none;
+  padding: 9px 20px;
   border-radius: 7px;
+  color: white;
+  border: none;
   cursor: pointer;
+}
+
+.container {
+  width: 1150px;
+  margin: 100px;
 }
 
 h1,
 h2,
 h3,
 h4,
-p {
+p,
+a {
   color: #58402c;
 }
 
@@ -69,6 +76,8 @@ header {
 }
 
 .navbar .links .btn-signup {
+  padding: 7px 20px;
+  border-radius: 7px;
   background-color: white;
   border: 1px solid #30488f;
   color: #30488f;
@@ -80,6 +89,111 @@ header {
 }
 
 /* MAIN */
+
+main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .manifest {
+  display: flex;
+  justify-content: center;
+}
+
+main .manifest .container {
+  display: flex;
+  margin: 100px;
+}
+
+main .manifest .container .cta-half {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main .manifest .container .cta-half .cta-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+main .manifest .container .cta-half .cta-btn small {
+  margin: 0 15px;
+}
+
+main .manifest .container .cta-half .cta-btn .btn:hover {
+  background: #233569;
+}
+
+main .manifest .container .cta-half h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+main .manifest .container .cta-half p {
+  font-size: 25px;
+}
+
+main .manifest .container .cta-half a {
+  text-decoration: none;
+}
+
+main .manifest .container .cta-half a:hover {
+  color: #30488f;
+}
+
+main .manifest .container .cta-half-right > img {
+  width: 570px;
+  height: 350px;
+}
+
+.favor-points {
+  background-color: #ffe7d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favor-points .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favor-points .container h2 {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.favor-points .container .card-container {
+  display: flex;
+  width: 100%;
+}
+
+.favor-points .container .card-container .card {
+  width: 25%;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.favor-points .container .card-container .card img {
+  width: 140px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.favor-points .container .card-container .card p {
+  font-size: 18px;
+}
 
 /* FOOTER */
 

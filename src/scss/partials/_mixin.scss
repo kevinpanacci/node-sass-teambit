@@ -1,4 +1,6 @@
 @mixin halfsection {
-    width: 50%;
+    width: 45%;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }

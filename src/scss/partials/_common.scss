@@ -5,12 +5,18 @@ section {
 
 .btn {
     background-color: #30488f;
-    padding: 7px 20px;
-    border: none;
+    padding: 9px 20px;
     border-radius: 7px;
+    color: white;
+    border: none;
     cursor: pointer;
 }
 
-h1, h2, h3, h4, p {
+.container {
+    width: 1150px;
+    margin: 100px;
+}
+
+h1, h2, h3, h4, p, a {
     color: $primaryTextColor;
 }
