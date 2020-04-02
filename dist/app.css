@@ -22,7 +22,7 @@ section {
 
 .container {
   width: 1150px;
-  margin: 100px;
+  margin: 100px 100px 0 100px;
 }
 
 h1,
@@ -190,6 +190,11 @@ main .manifest .container .cta-half-right > img {
   width: 140px;
   height: auto;
   margin: 20px auto;
+}
+
+.favor-points .container .card-container .card .img-s {
+  width: 60px;
+  height: auto;
 }
 
 .favor-points .container .card-container .card p {
